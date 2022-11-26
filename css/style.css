@@ -13,7 +13,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
 body {
@@ -28,7 +28,7 @@ footer {
 }
 
 header {
-    padding-bottom: 6em; 
+    padding-bottom: 6em;
 }
 
 nav {
@@ -36,8 +36,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 5em;
 
+}
+
+.logo-with__text {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 .header-logo__text {
@@ -45,7 +56,7 @@ nav {
     color: #f9faf8;
 }
 
-nav > ul {
+nav>ul {
 
     cursor: pointer;
     display: flex;
@@ -60,7 +71,7 @@ a {
     cursor: pointer;
 }
 
-nav > li > a:hover {
+nav>li>a:hover {
     color: #3882f6;
 }
 
@@ -70,6 +81,7 @@ nav > li > a:hover {
     align-items: center;
     gap: 1em;
 }
+
 .col-1 {
     width: 750px;
     padding: 20px;
@@ -82,7 +94,7 @@ nav > li > a:hover {
 }
 
 .col-2 {
-   width: auto;
+    width: auto;
     padding: 4em;
     background-color: #e5e7eb;
     background-image: url("../images/black-rhino.jpg");
@@ -123,7 +135,7 @@ nav > li > a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .box {
@@ -169,11 +181,12 @@ nav > li > a:hover {
     color: #f9faf8;
 }
 
-.blue-row > a {
+.blue-row>a {
     padding: 10px 25px;
     border: 2px solid #f9faf8;
     border-radius: 5px;
 }
+
 footer {
     text-align: center;
     padding: 20px;
